@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saudação</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            background: url('/js-copia.png');
+            background-color: #f7df1e;
+            background-size: contain; /* Ajusta a imagem para caber completamente no container */
+            background-position: center; /* Centraliza a imagem */
+            background-repeat: no-repeat; /* Evita repetição da imagem */
+            background-attachment: fixed; /* Mantém a imagem fixa durante o scroll */
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: black;
+            text-align: center;
+            padding-top: 0,5px;    
+        }
+    </style>
+</head>
+
+<body onload="saudacao()">
+    <h1>SAUDAÇÃO</h1>
+
+    <h4>Saudação de Acordo com a Hora.</h4>
+
+    <p id="resultado"></p>
+
+    <button onclick="window.location.href='index.html'">Voltar para a Página Inicial</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

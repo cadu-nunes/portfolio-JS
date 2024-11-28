@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média Escolar</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            background: url('/js-copia.png');
+            background-color: #f7df1e;
+            background-size: contain; /* Ajusta a imagem para caber completamente no container */
+            background-position: center; /* Centraliza a imagem */
+            background-repeat: no-repeat; /* Evita repetição da imagem */
+            background-attachment: fixed; /* Mantém a imagem fixa durante o scroll */
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: black;
+            text-align: center;
+            padding-top: 0,5px;    
+        }
+    </style>
+</head>
+
+<body>
+    <h1>MÉDIA ESCOLAR</h1>
+
+    <h4>Calcule a sua Média Escolar.</h4>
+
+    <input type="number" id="prova1" placeholder="Nota Prova 1">
+
+    <input type="number" id="prova2" placeholder="Nota Prova 2">
+
+    <input type="number" id="prova3" placeholder="Nota Prova 3">
+
+    <input type="number" id="prova4" placeholder="Nota Prova 4">
+
+    <button onclick="calcularMedia()">Calcular Média</button>
+
+    <p id="resultado"></p>
+
+    <button onclick="window.location.href='index.html'">Voltar para a Página Inicial</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
